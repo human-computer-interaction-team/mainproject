@@ -1,0 +1,2019 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>中青旅旅游网站</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<div class="header">
+		<div class="herader-top">
+			<div class="ql-container header-inner">
+				<ul class="index-top-nav user-login-info">
+					<li><a href="#"><img src="./image/collect.png">收藏</a>|</li>
+					<li><a href="#">[登录]</a></li>
+					<li><a href="#">[注册]</a></li>
+				</ul>
+				<ul class="index-top-nav nav-right">
+					<li class="nav-item"><a href="#"><img src="./image/weibo.png">新浪</a>|</li>
+					<li class="nav-item"><a href="#"><img src="./image/tencent.png">微博</a>|</li>
+					<li class="nav-item"><a href="#"><img src="./image/weixin.png">微信</a>|</li>
+					<li class="nav-item"><a href="#"><img src="./image/tianqi.png">多云  13℃</a></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="ql-container herader-search">
+			<div class="logo">
+				<img src="./image/logo_info.png">
+			</div>
+			<div class="search-box">
+				<form id="route-search" class="form-inline">
+					<div class="input-group">
+						<input type="text" placeholder="请输入搜索关键词">
+						<div id="search-choice" class="input-group-addon search-choice" style="width: 70px;" >
+							<select class="form-control">
+								<option>全部</option>
+								<option>景点</option>
+								<option>攻略</option>
+							</select>
+						</div>
+						<div class="input-group-addon search-button" style="width: 70px;" >
+							<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="site-contact">
+				<img src="./image/global-mobile.png">
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="herader-nav">
+			<div class="ql-container menu-panel">
+				<ul class="menu-list">
+					<li><a href="index.html">首&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp页</a></li>
+					<li><a href="about.html">关于中青旅</a></li>
+					<li><a href="car.html">包车旅游</a></li>
+					<li><a href="alone.html">散客拼团</a></li>
+					<li><a href="">商务会议</a></li>
+					<li><a href="">支付方式</a></li>
+					<li><a href="">桂林攻略</a></li>
+					<li><a href="hotel.html">桂林酒店</a></li>
+					<li><a href="">桂林景点</a></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+	<div class="main">
+		<div class="main-top">
+			<div class="main-top-carousel">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="./image/1.jpg" alt="...">
+						</div>
+						<div class="item">
+							<img src="./image/2.jpg" alt="...">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main-top-subject" data-stellar-background-ratio="0.5">
+				<div class="ql-container subject-hot">
+					<ul id="hot-item">
+						<li id="item_route" class="subject-item item-route">
+							<div class="subject-item-left">
+								<p class="subject-item-title"><label>特惠线路</label><span>LINE</span></p>
+								<p class="subject-item-text"><span>热门线路推荐 >> </span></p>
+							</div>
+							<div class="subject-item-right">
+								<p><span class="subject-item-rush">抢</span></p>
+							</div>
+							<div class="clear"></div>
+						</li>
+						<li id="item_hotel" class="subject-item item-hotel">
+							<div class="subject-item-left">
+								<p class="subject-item-title"><label>特惠酒店</label><span>HOTEL</span></p>
+								<p class="subject-item-text"><span>靓爆了，速度围观！>> </span></p>
+							</div>
+							<div class="subject-item-right">
+								<p><span class="subject-item-rush">抢</span></p>
+							</div>
+							<div class="clear"></div>
+						</li>
+						<li id="item_customization" class="subject-item item-customization">
+							<div class="subject-item-left">
+								<p class="subject-item-title"><label>旅游定制</label><span>CUSTOM</span></p>
+								<p class="subject-item-text"><span>好评如潮，超值推荐！>> </span></p>
+							</div>
+							<div class="subject-item-right">
+								<p><span class="subject-item-rush">抢</span></p>
+							</div>
+							<div class="clear"></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="ql-container main-top-hot">
+				<div class="body-left">
+					<div class="body-left-img">
+						<img src="./image/1.jpg">
+					</div>
+					<div class="body-left-text bg-yellow">
+						<h3>特惠不停</h3>
+						<a href="" class="body-more">查看更多 > </a>
+					</div>
+				</div>
+				<div class="hot-center">
+					<ul class="product">
+						<li class="product-item product-item-480">
+							<div class="product-img">
+								<a href=""><img src="./image/1.jpg"></a>
+							</div>
+							<div class="product-title">
+								<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+								<p>
+									<span>￥1499起</span>
+									<a href="" class="product-more pull-right">立即查看 > </a>
+								</p>
+								<div class="clearfix"></div>
+							</div>
+						</li>
+						<li class="product-item product-item-230">
+							<div class="product-img">
+								<a href=""><img src="./image/1.jpg"></a>
+							</div>
+							<div class="product-title">
+								<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+								<p>
+									<span>￥1499起</span>
+									<a href="" class="product-more pull-right">立即查看 > </a>
+								</p>
+								<div class="clearfix"></div>
+							</div>
+						</li>
+						<li class="product-item product-item-230">
+							<div class="product-img">
+								<a href=""><img src="./image/1.jpg"></a>
+							</div>
+							<div class="product-title">
+								<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+								<p>
+									<span>￥1499起</span>
+									<a href="" class="product-more pull-right">立即查看 > </a>
+								</p>
+								<div class="clearfix"></div>
+							</div>
+						</li>
+						<li class="product-item product-item-230">
+							<div class="product-img">
+								<a href=""><img src="./image/1.jpg"></a>
+							</div>
+							<div class="product-title">
+								<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+								<p>
+									<span>￥1499起</span>
+									<a href="" class="product-more pull-right">立即查看 > </a>
+								</p>
+								<div class="clearfix"></div>
+							</div>
+						</li>
+						<li class="product-item product-item-230">
+							<div class="product-img">
+								<a href=""><img src="./image/1.jpg"></a>
+							</div>
+							<div class="product-title">
+								<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+								<p>
+									<span>￥1499起</span>
+									<a href="" class="product-more pull-right">立即查看 > </a>
+								</p>
+								<div class="clearfix"></div>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+				<div class="hot-about">
+					<div class="hot-about-mobile">
+						<div class="about-mobile-global">
+							<img src="./image/about-mobile-global.png">
+						</div>
+						<div class="about-mobile-local">
+							<ul>
+								<li><label>联系电话：</label>0773-5851288</li>
+								<li><label>联系电话：</label>0773-5851388</li>
+								<li><label>传真号码：</label>0773-5827228</li>
+								<li><label>出境热线：</label>0773-5806611</li>
+								<li><span class="text-right">(9:00-18-00)</span></li>
+								<li><label>联系手机：</label>13635133998</li>
+								<li><span class="text-right">(24小时)</span></li>
+								<li><label>本站旅游质监、投诉电话：</label></li>
+								<li><span class="text-right">13768723290(朱)</span></li>
+								<li><label>企业在线QQ：</label><img src="./image/qq.png"></li>
+							</ul>
+						</div>
+					</div>
+					<div class="box-border hot-box">
+						<div class="box-text bg-white">
+							<p><b>联系我们</b></p>
+							<p>CONTACT US</p>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="ql-container main-bady">
+			<div class="main-layer" id="team1">
+				<div class="body-left">
+					<div class="body-left-img">
+						<img src="./image/1.jpg">
+					</div>
+					<div class="body-left-text bg-blue">
+						<h3>热门推荐</h3>
+						<p><span>省时又省心</span></p>
+						<a href="" class="body-more">查看更多 > </a>
+					</div>
+				</div>
+				<div class="body-right">
+					<ul class="nav nav-tabs tabs-recommend" role="tablist">
+						<li role="presentation" class="active"><a href="#recommend_one" aria-controls="recommend-one" role="tab" data-toggle="tab">自由行</a></li>
+						<li role="presentation"><a href="#recommend_two" aria-controls="recommend-two" role="tab" data-toggle="tab">自驾游</a></li>
+						<li role="presentation"><a href="#recommend_three" aria-controls="recommend-three" role="tab" data-toggle="tab">旅游包车</a></li>
+						<li role="presentation"><a href="#recommend_four" aria-controls="recommend-four" role="tab" data-toggle="tab">散客拼团</a></li>
+						<li role="presentation"><a href="#recommend_five" aria-controls="recommend-five" role="tab" data-toggle="tab">纯玩团</a></li>
+						<li role="presentation"><a href="#recommend_six" aria-controls="recommend-six" role="tab" data-toggle="tab">包团专区</a></li>
+						<li role="presentation"><a href="#recommend_seven" aria-controls="recommend-seven" role="tab" data-toggle="tab">独立成团</a></li>
+					</ul>
+
+					<div class="tab-content">
+						<div role="tabpanel" class="tab-pane active" id="recommend_one">
+							<ul class="product">
+								<li class="product-item product-item-480">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<img src="./image/1.jpg">
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<div role="tabpanel" class="tab-pane" id="recommend_two">
+							<ul class="product">
+								<li class="product-item product-item-480">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<img src="./image/1.jpg">
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<div role="tabpanel" class="tab-pane" id="recommend_three">
+							<div class="recommend-car-left">
+								<ul class="product">
+									<li class="product-item product-item-480">
+										<div class="product-img">
+											<a href=""><img src="./image/1.jpg"></a>
+										</div>
+										<div class="product-title">
+											<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+											<p>
+												<span>￥1499起</span>
+												<a href="" class="product-more pull-right">立即查看 > </a>
+											</p>
+											<div class="clearfix"></div>
+										</div>
+									</li>
+									<li class="product-item product-item-230">
+										<div class="product-img">
+											<a href=""><img src="./image/1.jpg"></a>
+										</div>
+										<div class="product-title">
+											<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+											<p>
+												<span>￥1499起</span>
+												<a href="" class="product-more pull-right">立即查看 > </a>
+											</p>
+											<div class="clearfix"></div>
+										</div>
+									</li>
+									<li class="product-item product-item-230">
+										<div class="product-img">
+											<a href=""><img src="./image/1.jpg"></a>
+										</div>
+										<div class="product-title">
+											<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+											<p>
+												<span>￥1499起</span>
+												<a href="" class="product-more pull-right">立即查看 > </a>
+											</p>
+											<div class="clearfix"></div>
+										</div>
+									</li>
+									<li class="product-item product-item-230">
+										<div class="product-img">
+											<a href=""><img src="./image/1.jpg"></a>
+										</div>
+										<div class="product-title">
+											<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+											<p>
+												<span>￥1499起</span>
+												<a href="" class="product-more pull-right">立即查看 > </a>
+											</p>
+											<div class="clearfix"></div>
+										</div>
+									</li>
+									<li class="product-item product-item-230">
+										<div class="product-img">
+											<a href=""><img src="./image/1.jpg"></a>
+										</div>
+										<div class="product-title">
+											<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+											<p>
+												<span>￥1499起</span>
+												<a href="" class="product-more pull-right">立即查看 > </a>
+											</p>
+											<div class="clearfix"></div>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="recommend-car-right">
+								<img src="./image/car.png">
+							</div>
+						</div>
+
+						<div role="tabpanel" class="tab-pane" id="recommend_four">
+							<ul class="product">
+								<li class="product-item product-item-480">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<img src="./image/1.jpg">
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<div role="tabpanel" class="tab-pane" id="recommend_five">
+							<ul class="product">
+								<li class="product-item product-item-480">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<img src="./image/1.jpg">
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<div role="tabpanel" class="tab-pane" id="recommend_six">
+							<ul class="product">
+								<li class="product-item product-item-480">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<img src="./image/1.jpg">
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<div role="tabpanel" class="tab-pane" id="recommend_seven">
+							<ul class="product">
+								<li class="product-item product-item-480">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<img src="./image/1.jpg">
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+
+			<div class="main-layer">
+				<div class="body-left">
+					<div class="body-left-img">
+						<img src="./image/1.jpg">
+					</div>
+					<div class="body-left-text bg-green">
+						<h3>桂林山水</h3>
+						<p><span>甲天下</span></p>
+						<a href="" class="body-more">查看更多 > </a>
+					</div>
+				</div>
+				<div class="body-right tourist">
+					<ul class="nav nav-tabs tabs-tourist" role="tablist">
+						<li role="presentation" class="active"><a href="#tourist_one" aria-controls="tourist-one" role="tab" data-toggle="tab">桂林景点</a></li>
+						<li role="presentation"><a href="#tourist_two" aria-controls="tourist-two" role="tab" data-toggle="tab">阳朔景点</a></li>
+						<li role="presentation"><a href="#tourist_three" aria-controls="tourist-three" role="tab" data-toggle="tab">龙胜景点</a></li>
+						<li role="presentation"><a href="#tourist_four" aria-controls="tourist-four" role="tab" data-toggle="tab">兴安景点</a></li>
+						<li role="presentation"><a href="#tourist_five" aria-controls="tourist-five" role="tab" data-toggle="tab">资源景点</a></li>
+						<li role="presentation"><a href="#tourist_six" aria-controls="tourist-six" role="tab" data-toggle="tab">周边景点</a></li>
+					</ul>
+
+					<div class="tab-content">
+						<div role="tabpanel" class="tab-pane active" id="tourist_one">
+							<ul class="product">
+								<li class="product-item product-item-480">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<img src="./image/1.jpg">
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<div role="tabpanel" class="tab-pane" id="tourist_two">
+							<ul class="product">
+								<li class="product-item product-item-480">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<img src="./image/1.jpg">
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<div role="tabpanel" class="tab-pane" id="tourist_three">
+							<ul class="product">
+								<li class="product-item product-item-480">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<img src="./image/1.jpg">
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<div role="tabpanel" class="tab-pane" id="tourist_four">
+							<ul class="product">
+								<li class="product-item product-item-480">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<img src="./image/1.jpg">
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<div role="tabpanel" class="tab-pane" id="tourist_five">
+							<ul class="product">
+								<li class="product-item product-item-480">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<img src="./image/1.jpg">
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<div role="tabpanel" class="tab-pane" id="tourist_six">
+							<ul class="product">
+								<li class="product-item product-item-480">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<a href=""><img src="./image/1.jpg"></a>
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="product-item product-item-230">
+									<div class="product-img">
+										<img src="./image/1.jpg">
+									</div>
+									<div class="product-title">
+										<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+										<p>
+											<span>￥1499起</span>
+											<a href="" class="product-more pull-right">立即查看 > </a>
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+
+				</div>
+				<div class="clear"></div>
+			</div>
+
+			<div class="main-layer">
+				<div class="body-left">
+					<div class="body-left-img hotel-left-img">
+						<img src="./image/1.jpg">
+					</div>
+					<div class="body-left-text hotel-left-text bg-purple">
+						<h3>桂林山水</h3>
+						<p><span>甲天下</span></p>
+						<a href="" class="body-more">查看更多 > </a>
+					</div>
+				</div>
+				<div class="body-right">
+					<div class="hotel-content">
+						<ul class="hotel-item">
+							<li>
+								<img src="./image/1.jpg">
+								<p><label class="level-five">五星酒店</label></p>
+								<p><a href="" class="product-more pull-right">立即查看</a></p>
+							</li>
+							<li>
+								<img src="./image/1.jpg">
+								<p><label class="level-four">四星酒店</label></p>
+								<p><a href="" class="product-more pull-right">立即查看</a></p>
+							</li>
+							<li>
+								<img src="./image/1.jpg">
+								<p><label class="level-three">三星酒店</label></p>
+								<p><a href="" class="product-more pull-right">立即查看</a></p>
+							</li>
+							<li>
+								<img src="./image/1.jpg">
+								<p><label>普通及连锁酒店</label></p>
+								<p><a href="" class="product-more pull-right">立即查看</a></p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+
+			<div class="main-layer">
+				<div class="body-left">
+					<div class="body-left-img">
+						<img src="./image/1.jpg">
+					</div>
+					<div class="body-left-text bg-red">
+						<h3>桂林山水</h3>
+						<p><span>甲天下</span></p>
+						<a href="" class="body-more">查看更多 > </a>
+					</div>
+				</div>
+				<div class="body-right">
+					<ul class="nav nav-tabs tabs-strategy" role="tablist">
+						<li role="presentation" class="active"><a href="#strategy_one" aria-controls="strategy-one" role="tab" data-toggle="tab">桂林游记</a></li>
+						<li role="presentation"><a href="#strategy_two" aria-controls="strategy-two" role="tab" data-toggle="tab">桂林交通</a></li>
+						<li role="presentation"><a href="#strategy_three" aria-controls="strategy-three" role="tab" data-toggle="tab">桂林美食</a></li>
+						<li role="presentation"><a href="#strategy_four" aria-controls="strategy-four" role="tab" data-toggle="tab">桂林特产</a></li>
+						<li role="presentation"><a href="#strategy_five" aria-controls="strategy-five" role="tab" data-toggle="tab">桂林历史</a></li>
+						<li role="presentation"><a href="#strategy_six" aria-controls="strategy-six" role="tab" data-toggle="tab">桂林传说</a></li>
+						<li role="presentation"><a href="#strategy_seven" aria-controls="strategy-seven" role="tab" data-toggle="tab">桂林娱乐</a></li>
+						<li role="presentation"><a href="#strategy_eight" aria-controls="strategy-eight" role="tab" data-toggle="tab">桂林板路</a></li>
+					</ul>
+
+					<div class="tab-content">
+						<div role="tabpanel" class="tab-pane active" id="strategy_one">
+							<div class="strategy-content">
+								<div class="strategy-content-left-img">
+									<img src="./image/1.jpg">
+								</div>
+								<div class="strategy-content-help">
+									<div class="help-strategy">
+										<h3>攻略问答</h3>
+										<ul>
+											<li><a href="">桂林景区</a></li>
+											<li><a href="">桂林景区桂林景区桂林景区桂林景区</a></li>
+											<li><a href="">桂林景区</a></li>
+										</ul>
+									</div>
+									<div class="help-strategy">
+										<h3>相关攻略</h3>
+										<ul>
+											<li><a href="">桂林景区</a></li>
+											<li><a href="">桂林景区桂林景区桂林景区桂林景区</a></li>
+											<li><a href="">桂林景区</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="strategy-content-right">
+									<ul class="scenic">
+										<li class="scenic-item scenic-item-small">
+											<a href=""><img src="./image/1.jpg"></a>
+											<span>漓江</span>
+										</li>
+										<li class="scenic-item scenic-item-small">
+											<a href=""><img src="./image/1.jpg"></a>
+											<span>漓江</span>
+										</li>
+									</ul>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+
+						<div role="tabpanel" class="tab-pane" id="strategy_two">
+							<div class="strategy-content">
+								<div class="strategy-content-left-img">
+									<img src="./image/1.jpg">
+								</div>
+								<div class="strategy-content-help">
+									<div class="help-strategy">
+										<h3>攻略问答</h3>
+										<ul>
+											<li><a href="">桂林景区</a></li>
+											<li><a href="">桂林景区桂林景区桂林景区桂林景区</a></li>
+											<li><a href="">桂林景区</a></li>
+										</ul>
+									</div>
+									<div class="help-strategy">
+										<h3>相关攻略</h3>
+										<ul>
+											<li><a href="">桂林景区</a></li>
+											<li><a href="">桂林景区桂林景区桂林景区桂林景区</a></li>
+											<li><a href="">桂林景区</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="strategy-content-right">
+									<ul class="scenic">
+										<li class="scenic-item scenic-item-small">
+											<a href=""><img src="./image/1.jpg"></a>
+											<p></p>
+											<span>漓江</span>
+										</li>
+										<li class="scenic-item scenic-item-small">
+											<a href=""><img src="./image/1.jpg"></a>
+											<p></p>
+											<span>漓江</span>
+										</li>
+									</ul>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+
+						<div role="tabpanel" class="tab-pane" id="strategy_three">
+							<div class="strategy-content">
+								<div class="strategy-content-left-img">
+									<img src="./image/1.jpg">
+								</div>
+								<div class="strategy-content-help">
+									<div class="help-strategy">
+										<h3>攻略问答</h3>
+										<ul>
+											<li><a href="">桂林景区</a></li>
+											<li><a href="">桂林景区桂林景区桂林景区桂林景区</a></li>
+											<li><a href="">桂林景区</a></li>
+										</ul>
+									</div>
+									<div class="help-strategy">
+										<h3>相关攻略</h3>
+										<ul>
+											<li><a href="">桂林景区</a></li>
+											<li><a href="">桂林景区桂林景区桂林景区桂林景区</a></li>
+											<li><a href="">桂林景区</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="strategy-content-right">
+									<ul class="scenic">
+										<li class="scenic-item scenic-item-small">
+											<a href=""><img src="./image/1.jpg"></a>
+											<p></p>
+											<span>漓江</span>
+										</li>
+										<li class="scenic-item scenic-item-small">
+											<a href=""><img src="./image/1.jpg"></a>
+											<p></p>
+											<span>漓江</span>
+										</li>
+									</ul>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+
+						<div role="tabpanel" class="tab-pane" id="strategy_four">
+							<div class="strategy-content">
+								<div class="strategy-content-left-img">
+									<img src="./image/1.jpg">
+								</div>
+								<div class="strategy-content-help">
+									<div class="help-strategy">
+										<h3>攻略问答</h3>
+										<ul>
+											<li><a href="">桂林景区</a></li>
+											<li><a href="">桂林景区桂林景区桂林景区桂林景区</a></li>
+											<li><a href="">桂林景区</a></li>
+										</ul>
+									</div>
+									<div class="help-strategy">
+										<h3>相关攻略</h3>
+										<ul>
+											<li><a href="">桂林景区</a></li>
+											<li><a href="">桂林景区桂林景区桂林景区桂林景区</a></li>
+											<li><a href="">桂林景区</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="strategy-content-right">
+									<ul class="scenic">
+										<li class="scenic-item scenic-item-small">
+											<a href=""><img src="./image/1.jpg"></a>
+											<p></p>
+											<span>漓江</span>
+										</li>
+										<li class="scenic-item scenic-item-small">
+											<a href=""><img src="./image/1.jpg"></a>
+											<p></p>
+											<span>漓江</span>
+										</li>
+									</ul>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+
+						<div role="tabpanel" class="tab-pane" id="strategy_five">
+							<div class="strategy-content">
+								<div class="strategy-content-left-img">
+									<img src="./image/1.jpg">
+								</div>
+								<div class="strategy-content-help">
+									<div class="help-strategy">
+										<h3>攻略问答</h3>
+										<ul>
+											<li><a href="">桂林景区</a></li>
+											<li><a href="">桂林景区桂林景区桂林景区桂林景区</a></li>
+											<li><a href="">桂林景区</a></li>
+										</ul>
+									</div>
+									<div class="help-strategy">
+										<h3>相关攻略</h3>
+										<ul>
+											<li><a href="">桂林景区</a></li>
+											<li><a href="">桂林景区桂林景区桂林景区桂林景区</a></li>
+											<li><a href="">桂林景区</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="strategy-content-right">
+									<ul class="scenic">
+										<li class="scenic-item scenic-item-small">
+											<a href=""><img src="./image/1.jpg"></a>
+											<p></p>
+											<span>漓江</span>
+										</li>
+										<li class="scenic-item scenic-item-small">
+											<a href=""><img src="./image/1.jpg"></a>
+											<p></p>
+											<span>漓江</span>
+										</li>
+									</ul>
+								</div>
+								<div class="clear"></div>
+							</div>
+
+						</div>
+
+						<div role="tabpanel" class="tab-pane" id="strategy_six">
+							<div class="strategy-content">
+								<div class="strategy-content-left-img">
+									<img src="./image/1.jpg">
+								</div>
+								<div class="strategy-content-help">
+									<div class="help-strategy">
+										<h3>攻略问答</h3>
+										<ul>
+											<li><a href="">桂林景区</a></li>
+											<li><a href="">桂林景区桂林景区桂林景区桂林景区</a></li>
+											<li><a href="">桂林景区</a></li>
+										</ul>
+									</div>
+									<div class="help-strategy">
+										<h3>相关攻略</h3>
+										<ul>
+											<li><a href="">桂林景区</a></li>
+											<li><a href="">桂林景区桂林景区桂林景区桂林景区</a></li>
+											<li><a href="">桂林景区</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="strategy-content-right">
+									<ul class="scenic">
+										<li class="scenic-item scenic-item-small">
+											<a href=""><img src="./image/1.jpg"></a>
+											<p></p>
+											<span>漓江</span>
+										</li>
+										<li class="scenic-item scenic-item-small">
+											<a href=""><img src="./image/1.jpg"></a>
+											<p></p>
+											<span>漓江</span>
+										</li>
+									</ul>
+								</div>
+								<div class="clear"></div>
+							</div>
+
+						</div>
+
+						<div role="tabpanel" class="tab-pane" id="strategy_seven">
+							<div class="strategy-content">
+								<div class="strategy-content-left-img">
+									<img src="./image/1.jpg">
+								</div>
+								<div class="strategy-content-help">
+									<div class="help-strategy">
+										<h3>攻略问答</h3>
+										<ul>
+											<li><a href="">桂林景区</a></li>
+											<li><a href="">桂林景区桂林景区桂林景区桂林景区</a></li>
+											<li><a href="">桂林景区</a></li>
+										</ul>
+									</div>
+									<div class="help-strategy">
+										<h3>相关攻略</h3>
+										<ul>
+											<li><a href="">桂林景区</a></li>
+											<li><a href="">桂林景区桂林景区桂林景区桂林景区</a></li>
+											<li><a href="">桂林景区</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="strategy-content-right">
+									<ul class="scenic">
+										<li class="scenic-item scenic-item-small">
+											<a href=""><img src="./image/1.jpg"></a>
+											<p></p>
+											<span>漓江</span>
+										</li>
+										<li class="scenic-item scenic-item-small">
+											<a href=""><img src="./image/1.jpg"></a>
+											<p></p>
+											<span>漓江</span>
+										</li>
+									</ul>
+								</div>
+								<div class="clear"></div>
+							</div>
+
+						</div>
+
+						<div role="tabpanel" class="tab-pane" id="strategy_eight">
+							<div class="strategy-content">
+								<div class="strategy-content-left-img">
+									<img src="./image/1.jpg">
+								</div>
+								<div class="strategy-content-help">
+									<div class="help-strategy">
+										<h3>攻略问答</h3>
+										<ul>
+											<li><a href="">桂林景区</a></li>
+											<li><a href="">桂林景区桂林景区桂林景区桂林景区</a></li>
+											<li><a href="">桂林景区</a></li>
+										</ul>
+									</div>
+									<div class="help-strategy">
+										<h3>相关攻略</h3>
+										<ul>
+											<li><a href="">桂林景区</a></li>
+											<li><a href="">桂林景区桂林景区桂林景区桂林景区</a></li>
+											<li><a href="">桂林景区</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="strategy-content-right">
+									<ul class="scenic">
+										<li class="scenic-item scenic-item-small">
+											<a href=""><img src="./image/1.jpg"></a>
+											<p></p>
+											<span>漓江</span>
+										</li>
+										<li class="scenic-item scenic-item-small">
+											<a href=""><img src="./image/1.jpg"></a>
+											<p></p>
+											<span>漓江</span>
+										</li>
+									</ul>
+								</div>
+								<div class="clear"></div>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="strategy-help">
+						<div class="strategy-help-title">
+							<div class="strategy-help-title-header">
+								<h3>旅游小助手</h3>
+							</div>
+							<div class="strategy-help-title-text">
+								<p>TOURISM<br >ASSISTANT</p>
+							</div>
+						</div>
+						<div class="strategy-help-tool">
+							<ul>
+								<li>
+									<div class="strategy-help-tool-item">
+										<img src="./image/air.png">
+										<span>特价机票</span>
+									</div>
+								</li>
+								<li>
+									<div class="strategy-help-tool-item">
+										<img src="./image/hotel.png">
+										<span>特价酒店</span>
+									</div>
+								</li>
+								<li>
+									<div class="strategy-help-tool-item">
+										<img src="./image/train.png">
+										<span>火车时刻表</span>
+									</div>
+								</li>
+								<li>
+									<div class="strategy-help-tool-item">
+										<img src="./image/map.png">
+										<span>桂林地图</span>
+									</div>
+								</li>
+								<li>
+									<div class="strategy-help-tool-item">
+										<img src="./image/weather.png">
+										<span>天气预报</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="clear"></div>
+					</div>
+
+				</div>
+				<div class="clear"></div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="ql-container">
+			<div class="footer-top">
+				<img src="./image/footer_logo.png">
+			</div>
+		</div>
+		<div class="fonter-link">
+			<div class="ql-container fonter-link-list">
+				<ul>
+					<li>友情链接：</li>
+					<li><a href="">广西中青旅</a></li>
+					<li>|</li>
+					<li><a href="">遨游网</a></li>
+					<li>|</li>
+					<li><a href="">中青旅</a></li>
+					<li>|</li>
+					<li><a href="">内宾国内旅游</a></li>
+					<li>|</li>
+					<li><a href="">会奖商务旅游</a></li>
+					<li>|</li>
+					<li><a href="">日本团散地接</a></li>
+					<li>|</li>
+					<li><a href="">其他事项联系</a></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="footer-about">
+			<div class="ql-container footer-about-info">
+				<p>版权所有 © 2012 桂林中青旅国际旅游有限公司官方网站<span>桂ICP备12002862号-1</span></p>
+				<p>桂林市七星路30号东方大厦三层<span>电话：0773-5851388</span><span>传真：0773-5851288</span><span>邮箱：GUILINCYTS@163.COM</span></p>
+				<p>广西壮族自治区桂林中青旅国际旅游有限公司版权所有 严禁任何人、机构做本站镜像，违者必究，本站有权追究法律责任。</p>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
