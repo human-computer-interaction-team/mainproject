@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>中青旅旅游网站</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/csshake.min.css">
+	<link rel="stylesheet" href="css/csshake-slow.min.css">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<div class="header">
+		<div class="herader-top">
+			<div class="ql-container header-inner">
+				<ul class="index-top-nav user-login-info">
+					<li><a href="#"><img src="./image/collect.png">收藏</a>|</li>
+					<li><a href="#">[登录]</a></li>
+					<li><a href="#">[注册]</a></li>
+				</ul>
+				<ul class="index-top-nav nav-right">
+					<li class="nav-item"><a href="#"><img src="./image/weibo.png">新浪</a>|</li>
+					<li class="nav-item"><a href="#"><img src="./image/tencent.png">微博</a>|</li>
+					<li class="nav-item"><a href="#"><img src="./image/weixin.png">微信</a>|</li>
+					<li class="nav-item"><a href="#"><img src="./image/tianqi.png">多云  13℃</a></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="ql-container herader-search">
+			<div class="logo">
+				<img src="./image/logo_info.png">
+			</div>
+			<div class="search-box">
+				<form id="route-search" class="form-inline">
+					<div class="input-group">
+						<input type="text" placeholder="请输入搜索关键词">
+						<div id="search-choice" class="input-group-addon search-choice" style="width: 70px;" >
+							<select class="form-control">
+								<option>全部</option>
+								<option>景点</option>
+								<option>攻略</option>
+							</select>
+						</div>
+						<div class="input-group-addon search-button" style="width: 70px;" >
+							<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="site-contact">
+				<img src="./image/global-mobile.png">
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="herader-nav">
+			<div class="ql-container menu-panel">
+				<ul class="menu-list">
+					<li><a href="index.html">首&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp页</a></li>
+					<li><a href="about.html">关于中青旅</a></li>
+					<li><a href="car.html">包车旅游</a></li>
+					<li><a href="alone.html">散客拼团</a></li>
+					<li><a href="">商务会议</a></li>
+					<li><a href="">支付方式</a></li>
+					<li><a href="">桂林攻略</a></li>
+					<li><a href="hotel.html">桂林酒店</a></li>
+					<li><a href="">桂林景点</a></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="breadcrumb">
+			<div class="ql-container">
+				<div class="breadcrumb-content">
+					<p>
+						<span class="glyphicon glyphicon-triangle-right" aria-hidden="true">您当前所在的位置：<a href="">桂林中青旅国际旅游有限公司</a>><a href="">旅游包车</a></span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="main">
+		<div class="mod-hot-blue">
+			<div class="ql-container mod-hot">
+				<div class="mod-hot-left">
+					<div class="hot-about">
+						<div class="hot-about-mobile">
+							<div class="about-mobile-global">
+								<img src="./image/about-mobile-global.png">
+							</div>
+							<div class="about-mobile-local">
+								<ul>
+									<li><label>联系电话：</label>0773-5851288</li>
+									<li><label>联系电话：</label>0773-5851388</li>
+									<li><label>传真号码：</label>0773-5827228</li>
+									<li><label>出境热线：</label>0773-5806611</li>
+									<li><span class="text-right">(9:00-18-00)</span></li>
+									<li><label>联系手机：</label>13635133998</li>
+									<li><span class="text-right">(24小时)</span></li>
+									<li><label>本站旅游质监、投诉电话：</label></li>
+									<li><span class="text-right">13768723290(朱)</span></li>
+									<li><label>企业在线QQ：</label><img src="./image/qq.png"></li>
+								</ul>
+							</div>
+						</div>
+						<div class="box-border hot-box">
+							<div class="box-text bg-white">
+								<p><b>联系我们</b></p>
+								<p>CONTACT US</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="mod-hot-right">
+					<div class="mod-hot-right-top">
+						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							</ol>
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+									<img src="./image/1.jpg" alt="...">
+								</div>
+								<div class="item">
+									<img src="./image/2.jpg" alt="...">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mod-hot-right-bottom">
+						<ul class="mod-hot-right-guide">
+							<li class="mod-guide mod-guide-car">
+								<h3>旅游包车</h3>
+								<p>逍遥自在</p>
+							</li>
+							<li class="mod-guide mod-guide-ship">
+								<h3>畅游漓江</h3>
+								<p>不一样的桂林</p>
+							</li>
+							<li class="mod-guide mod-guide-scenic">
+								<h3>热游景点</h3>
+								<p>特殊旅程</p>
+							</li>
+							<li class="mod-guide mod-guide-ql">
+								<h3>选择中青旅</h3>
+								<p>轻松出行</p>
+							</li>
+						</ul>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+
+		<div class="ql-container">
+			<div class=" car-main-left">
+				<div class="car-nav">
+					<div class="car-nav-item">
+						<ul class="car-nav-list">
+							<li><label>线路类型：</label></li>
+							<li class="active">全部</li>
+							<li>自由行</li>
+							<li>自驾游</li>
+							<li>散客拼团</li>
+							<li>纯玩拼团</li>
+							<li>包团专区</li>
+							<li>独立成团</li>
+							<li>10人以上团队纯玩</li>
+							<li>10人以上独立成团纯玩</li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+					<div class="car-nav-item">
+						<ul class="car-nav-list">
+							<li><label>主题标签：</label></li>
+							<li class="active">全部</li>
+							<li>漓江</li>
+							<li>龙脊梯田</li>
+							<li>漂流</li>
+							<li>温泉</li>
+							<li>岩洞</li>
+							<li>表演</li>
+							<li>桂林市内游</li>
+							<li>阳朔</li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+					<div class="car-nav-item">
+						<ul class="car-nav-list">
+							<li><label>旅游天数：</label></li>
+							<li class="active">全部</li>
+							<li>一日游</li>
+							<li>二日游</li>
+							<li>三日游</li>
+							<li>四日游</li>
+							<li>五日游</li>
+							<li>六日游</li>
+							<li>六日游以上</li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+					<div class="car-nav-item clear-border">
+						<ul class="car-nav-list">
+							<li><label>线路价格：</label></li>
+							<li class="active">全部</li>
+							<li>500元以下</li>
+							<li>500-1000元</li>
+							<li>1000-1500元</li>
+							<li>1500-2000元</li>
+							<li>2000元以上</li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+				</div>
+
+				<div class="car-type">
+					<div class="car-box">
+						<div class="car-box-header">
+							<h3 class="pull-left">旅游大巴</h3>
+							<a  class="pull-right" href="">更多>></a>
+							<div class="clearfix"></div>
+						</div>
+						<div class="car-box-content">
+							<div class="car-box-info">
+								<img src="./image/1.jpg">
+								<div class="car-box-info-money">
+									<span class="pull-left">中青旅大巴</span>
+									<span class="pull-right"><em>￥450</em>起</span>
+									<div class="clearfix"></div>
+								</div>
+								<div class="car-box-info-about">
+									<ul>
+										<li>[大巴]</li>
+										<li>[33座]</li>
+										<li>[2.4]</li>
+										<li>[手动挡]</li>
+									</ul>
+								</div>
+							</div>
+							<div class="car-box-info">
+								<img src="./image/1.jpg">
+								<div class="car-box-info-money">
+									<span class="pull-left">中青旅大巴</span>
+									<span class="pull-right"><em>￥450</em>起</span>
+									<div class="clearfix"></div>
+								</div>
+								<div class="car-box-info-about">
+									<ul>
+										<li>[大巴]</li>
+										<li>[33座]</li>
+										<li>[2.4]</li>
+										<li>[手动挡]</li>
+									</ul>
+								</div>
+							</div>
+							<div class="car-box-info">
+								<img src="./image/1.jpg">
+								<div class="car-box-info-money">
+									<span class="pull-left">中青旅大巴</span>
+									<span class="pull-right"><em>￥450</em>起</span>
+									<div class="clearfix"></div>
+								</div>
+								<div class="car-box-info-about">
+									<ul>
+										<li>[大巴]</li>
+										<li>[33座]</li>
+										<li>[2.4]</li>
+										<li>[手动挡]</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+
+					<div class="car-box">
+						<div class="car-box-header">
+							<h3 class="pull-left">商务车</h3>
+							<a  class="pull-right" href="">更多>></a>
+							<div class="clearfix"></div>
+						</div>
+						<div class="car-box-content">
+							<div class="car-box-info">
+								<img src="./image/1.jpg">
+								<div class="car-box-info-money">
+									<span class="pull-left">中青旅大巴</span>
+									<span class="pull-right"><em>￥450</em>起</span>
+									<div class="clearfix"></div>
+								</div>
+								<div class="car-box-info-about">
+									<ul>
+										<li>[大巴]</li>
+										<li>[33座]</li>
+										<li>[2.4]</li>
+										<li>[手动挡]</li>
+									</ul>
+								</div>
+							</div>
+							<div class="car-box-info">
+								<img src="./image/1.jpg">
+								<div class="car-box-info-money">
+									<span class="pull-left">中青旅大巴</span>
+									<span class="pull-right"><em>￥450</em>起</span>
+									<div class="clearfix"></div>
+								</div>
+								<div class="car-box-info-about">
+									<ul>
+										<li>[大巴]</li>
+										<li>[33座]</li>
+										<li>[2.4]</li>
+										<li>[手动挡]</li>
+									</ul>
+								</div>
+							</div>
+							<div class="car-box-info">
+								<img src="./image/1.jpg">
+								<div class="car-box-info-money">
+									<span class="pull-left">中青旅大巴</span>
+									<span class="pull-right"><em>￥450</em>起</span>
+									<div class="clearfix"></div>
+								</div>
+								<div class="car-box-info-about">
+									<ul>
+										<li>[大巴]</li>
+										<li>[33座]</li>
+										<li>[2.4]</li>
+										<li>[手动挡]</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+
+					<div class="car-box">
+						<div class="car-box-header">
+							<h3 class="pull-left">小轿车</h3>
+							<a  class="pull-right" href="">更多>></a>
+							<div class="clearfix"></div>
+						</div>
+						<div class="car-box-content">
+							<div class="car-box-info">
+								<img src="./image/1.jpg">
+								<div class="car-box-info-money">
+									<span class="pull-left">中青旅大巴</span>
+									<span class="pull-right"><em>￥450</em>起</span>
+									<div class="clearfix"></div>
+								</div>
+								<div class="car-box-info-about">
+									<ul>
+										<li>[大巴]</li>
+										<li>[33座]</li>
+										<li>[2.4]</li>
+										<li>[手动挡]</li>
+									</ul>
+								</div>
+							</div>
+							<div class="car-box-info">
+								<img src="./image/1.jpg">
+								<div class="car-box-info-money">
+									<span class="pull-left">中青旅大巴</span>
+									<span class="pull-right"><em>￥450</em>起</span>
+									<div class="clearfix"></div>
+								</div>
+								<div class="car-box-info-about">
+									<ul>
+										<li>[大巴]</li>
+										<li>[33座]</li>
+										<li>[2.4]</li>
+										<li>[手动挡]</li>
+									</ul>
+								</div>
+							</div>
+							<div class="car-box-info">
+								<img src="./image/1.jpg">
+								<div class="car-box-info-money">
+									<span class="pull-left">中青旅大巴</span>
+									<span class="pull-right"><em>￥450</em>起</span>
+									<div class="clearfix"></div>
+								</div>
+								<div class="car-box-info-about">
+									<ul>
+										<li>[大巴]</li>
+										<li>[33座]</li>
+										<li>[2.4]</li>
+										<li>[手动挡]</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+
+				<div class="car-recommend">
+					<div class="car-recommend-header">
+						<h3 class="pull-left">推荐旅游包车线路</h3>
+						<a  class="pull-right" href="">更多>></a>
+						<div class="clearfix"></div>
+					</div>
+					<div class="car-recommend-box">
+						<ul class="product">
+							<li class="product-item product-item-230">
+								<div class="product-img">
+									<a href=""><img src="./image/1.jpg"></a>
+								</div>
+								<div class="product-title">
+									<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+									<p>
+										<span>￥1499起</span>
+										<a href="" class="product-more pull-right">立即查看 > </a>
+									</p>
+									<div class="clearfix"></div>
+								</div>
+							</li>
+							<li class="product-item product-item-230">
+								<div class="product-img">
+									<a href=""><img src="./image/1.jpg"></a>
+								</div>
+								<div class="product-title">
+									<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+									<p>
+										<span>￥1499起</span>
+										<a href="" class="product-more pull-right">立即查看 > </a>
+									</p>
+									<div class="clearfix"></div>
+								</div>
+							</li>
+							<li class="product-item product-item-230">
+								<div class="product-img">
+									<a href=""><img src="./image/1.jpg"></a>
+								</div>
+								<div class="product-title">
+									<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+									<p>
+										<span>￥1499起</span>
+										<a href="" class="product-more pull-right">立即查看 > </a>
+									</p>
+									<div class="clearfix"></div>
+								</div>
+							</li>
+							<li class="product-item product-item-230">
+								<div class="product-img">
+									<a href=""><img src="./image/1.jpg"></a>
+								</div>
+								<div class="product-title">
+									<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+									<p>
+										<span>￥1499起</span>
+										<a href="" class="product-more pull-right">立即查看 > </a>
+									</p>
+									<div class="clearfix"></div>
+								</div>
+							</li>
+							<li class="product-item product-item-230">
+								<div class="product-img">
+									<a href=""><img src="./image/1.jpg"></a>
+								</div>
+								<div class="product-title">
+									<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+									<p>
+										<span>￥1499起</span>
+										<a href="" class="product-more pull-right">立即查看 > </a>
+									</p>
+									<div class="clearfix"></div>
+								</div>
+							</li>
+							<li class="product-item product-item-230">
+								<div class="product-img">
+									<a href=""><img src="./image/1.jpg"></a>
+								</div>
+								<div class="product-title">
+									<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+									<p>
+										<span>￥1499起</span>
+										<a href="" class="product-more pull-right">立即查看 > </a>
+									</p>
+									<div class="clearfix"></div>
+								</div>
+							</li>
+							<li class="product-item product-item-230">
+								<div class="product-img">
+									<a href=""><img src="./image/1.jpg"></a>
+								</div>
+								<div class="product-title">
+									<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+									<p>
+										<span>￥1499起</span>
+										<a href="" class="product-more pull-right">立即查看 > </a>
+									</p>
+									<div class="clearfix"></div>
+								</div>
+							</li>
+							<li class="product-item product-item-230">
+								<div class="product-img">
+									<a href=""><img src="./image/1.jpg"></a>
+								</div>
+								<div class="product-title">
+									<h3><i>【龙脊梯田】</i>龙脊梯田、漓江、冠岩古东瀑布4晚5日游</h3>
+									<p>
+										<span>￥1499起</span>
+										<a href="" class="product-more pull-right">立即查看 > </a>
+									</p>
+									<div class="clearfix"></div>
+								</div>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="car-main-right">
+				<div class="aside-box">
+					<div class="aside-box-image">
+						<img src="./image/1.jpg">
+					</div>
+				</div>
+				<div class="aside-box">
+					<div class="aside-box-header bg-red">
+						<h3 class="aside-box-title">旅游攻略</h3>
+						<a href="#">更多>></a>
+					</div>
+					<div class="aside-box-content">
+						<ul class="aside-box-list aside-box-strategy">
+							<li>桂林游记</li>
+							<li>桂林交通</li>
+							<li>桂林美食</li>
+							<li>桂林特产</li>
+							<li>桂林历史</li>
+							<li>桂林传说</li>
+							<li>桂林娱乐</li>
+							<li>桂林板路</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="aside-box aside-box-border">
+					<div class="aside-box-header bg-blue">
+						<h3 class="aside-box-title">热门景点</h3>
+						<a href="#">更多>></a>
+					</div>
+					<div class="aside-box-content">
+						<ul class="aside-box-list aside-box-tourist">
+							<li>
+								<div class="aside-tourist-item">
+									<img src="./image/1.jpg" alt="漓江">
+									<p>桂林漓江</p>
+								</div>
+							</li>
+							<li>
+								<div class="aside-tourist-item">
+									<img src="./image/1.jpg" alt="漓江">
+									<p>桂林漓江</p>
+								</div>
+							</li>
+							<li>
+								<div class="aside-tourist-item">
+									<img src="./image/1.jpg" alt="漓江">
+									<p>桂林漓江</p>
+								</div>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+
+				<div class="aside-box aside-box-border">
+					<div class="aside-box-header bg-green">
+						<h3 class="aside-box-title">热游路线</h3>
+						<a href="#">更多>></a>
+					</div>
+					<div class="aside-box-content">
+						<ul class="aside-box-list aside-box-line">
+							<li><a href="">》桂林市区景点，漓江风光，阳朔风光</a></li>
+							<li><a href="">》桂林市区景点，漓江风光，阳朔风光</a></li>
+							<li><a href="">》桂林市区景点，漓江风光，阳朔风光</a></li>
+							<li><a href="">》桂林市区景点，漓江风光，阳朔风光</a></li>
+							<li><a href="">》桂林市区景点，漓江风光，阳朔风光</a></li>
+							<li><a href="">》桂林市区景点，漓江风光，阳朔风光</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="aside-box aside-box-border">
+					<div class="aside-box-header bg-purple">
+						<h3 class="aside-box-title">推荐酒店</h3>
+						<a href="#">更多>></a>
+					</div>
+					<div class="aside-box-content">
+						<ul class="aside-box-list aside-box-hotel">
+							<li>
+								<div class="aside-hotel-item">
+									<img src="./image/1.jpg" alt="漓江">
+									<p>桂林香格里拉酒店</p>
+									<p>最低：￥<em>280元</em>起</p>
+								</div>
+							</li>
+							<li>
+								<div class="aside-hotel-item">
+									<img src="./image/1.jpg" alt="漓江">
+									<p>桂林香格里拉酒店</p>
+									<p>最低：￥<em>280元</em>起</p>
+								</div>
+							</li>
+							<li>
+								<div class="aside-hotel-item">
+									<img src="./image/1.jpg" alt="漓江">
+									<p>桂林香格里拉酒店</p>
+									<p>最低：￥<em>280元</em>起</p>
+								</div>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="ql-container">
+			<div class="footer-top">
+				<img src="./image/footer_logo.png">
+			</div>
+		</div>
+		<div class="fonter-link">
+			<div class="ql-container fonter-link-list">
+				<ul>
+					<li>友情链接：</li>
+					<li><a href="">广西中青旅</a></li>
+					<li>|</li>
+					<li><a href="">遨游网</a></li>
+					<li>|</li>
+					<li><a href="">中青旅</a></li>
+					<li>|</li>
+					<li><a href="">内宾国内旅游</a></li>
+					<li>|</li>
+					<li><a href="">会奖商务旅游</a></li>
+					<li>|</li>
+					<li><a href="">日本团散地接</a></li>
+					<li>|</li>
+					<li><a href="">其他事项联系</a></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="footer-about">
+			<div class="ql-container footer-about-info">
+				<p>版权所有 © 2012 桂林中青旅国际旅游有限公司官方网站<span>桂ICP备12002862号-1</span></p>
+				<p>桂林市七星路30号东方大厦三层<span>电话：0773-5851388</span><span>传真：0773-5851288</span><span>邮箱：GUILINCYTS@163.COM</span></p>
+				<p>广西壮族自治区桂林中青旅国际旅游有限公司版权所有 严禁任何人、机构做本站镜像，违者必究，本站有权追究法律责任。</p>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/index.js"></script>
+
+</body>
+</html>
