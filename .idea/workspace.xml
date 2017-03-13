@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23955fb4-7f68-4579-885f-735ffbab7e28" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/hotel/东西港舍酒店.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/hotel/住在书院酒店.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/hotel/如家.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/hotel/彼岸别院酒店.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/hotel/格林豪泰.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/hotel/桂山华星酒店.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/hotel/桂林大公馆.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/hotel/桂林宾馆.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/hotel/水秀月牙伴山度假酒店.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/hotel/汉唐-馨阁酒店.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/hotel/汉庭.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/hotel/皇家别院.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/scenic/夜游两江四湖.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/scenic/漓江.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/scenic/独秀峰.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/scenic/王城景区.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/scenic/芦笛岩.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/scenic/象鼻山.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/scenic/黄洛瑶寨.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/scenic/龙胜温泉.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/scenic/龙脊梯田(平安).jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/scenic/龙脊梯田(金坑).jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/王毅承/人机交互测试作业文档-pre.docx" afterPath="$PROJECT_DIR$/王毅承/人机交互测试作业文档-pre.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/王毅承/原则1-3.docx" afterPath="$PROJECT_DIR$/王毅承/原则1-3.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
-    </list>
+    <list default="true" id="23955fb4-7f68-4579-885f-735ffbab7e28" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -308,12 +280,12 @@
       <option name="presentableId" value="Default" />
       <updated>1489144875175</updated>
       <workItem from="1489144876442" duration="12148000" />
-      <workItem from="1489391207070" duration="18000" />
+      <workItem from="1489391207070" duration="134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12166000" />
+    <option name="totallyTimeSpent" value="12282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
