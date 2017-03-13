@@ -74,10 +74,10 @@
 .body-left-text h3 { padding-top: 13px; font-size: 16px; }
 .body-left-text p {	font-size: 12px; }
 .body-left-text .body-more { position: absolute; right: 20px; bottom: 10px;  float: right; }
-.body-right { float: left; width: 980px; margin: 0 0 0 20px; }
+.body-right { float: left; width: 1000px; margin: 0 0 0 0px; }
 .body-right .product-item .product-title { border: 1px solid #ddd; }
-.body-right li:nth-child(3) { margin-right: 0; }
 .body-right li:last-child { margin-right: 0; }
+.body-right li p { margin-top: 0px; }
 
 .hot-center { float: left; width: 730px; height: 420px; margin: 0 20px; }
 .recommend-car-left { float: left; width: 750px; height: 420px; }
@@ -169,28 +169,30 @@
 .strategy-help-title-header h3 { line-height: 40px; }
 .strategy-help-title-text { height: 100px; background-color: #e5e5e5; color: #ff6666; font-size: 20px; }
 .strategy-help-title-text p { text-align: center; padding-top: 24px; }
-.strategy-help-tool { float: left; width: 828px; height: 140px; }
-.strategy-help-tool li { float: left; width: 165px;  }
+.strategy-help-tool { float: left; width: 1000px; height: 140px; }
+.strategy-help-tool li { float: left; width: 200px;  }
+.strategy-help-tool li img {margin: 0 auto; display: block; }
 .strategy-help-tool li span { display: block; padding-top: 12px; font-size: 16px; text-align: center;  }
 .strategy-help-tool-item { position: relative; }
 .strategy-help-tool-item img { margin: 0 35px; padding-top: 11px; }
 
 /*桂林酒店*/
-.main-layer .hotel-left-img { height: 220px; overflow: hidden; }
-.main-layer .hotel-left-img img { height: 220px; }
+.main-layer .hotel-left-img { height: 270px; overflow: hidden; }
+.main-layer .hotel-left-img img { height: 240px; }
 .main-layer .hotel-left-text { height: 90px; }
 .hotel-item li { float: left; width: 228px; height: 310px; margin-left: 22px; border: 1px solid #ddd; overflow: hidden; }
 .hotel-item li:first-child { margin-left: 0; }
 .hotel-item li img { width: 228px; height: 248px; }
 .hotel-item li p { margin-top: 10px; }
 .hotel-item li p:last-child { margin-top: 0; }
-.hotel-item li:last-child a { margin-top: 5px; }
+.hotel-item li:last-child a { margin-top: 100px; margin-left: 40px;}
 .hotel-item li:last-child p { padding-left: 10px; }
-.level-five { background: url(../image/level_five.png) no-repeat scroll right center; width: 164px; font-size: 16px; padding-left: 10px; }
-.level-four { background: url(../image/level_four.png) no-repeat scroll right center; width: 148px; font-size: 16px; padding-left: 10px; }
-.level-three { background: url(../image/level_three.png) no-repeat scroll right center; width: 128px; font-size: 16px; padding-left: 10px; }
+.level-five { background: url(../image/level_five.png) no-repeat scroll right;text-align: left; width: 228px; height:15px; font-size: 16px; padding-left: 10px; }
+.level-four { background: url(../image/level_four.png) no-repeat scroll right; width: 228px; font-size: 16px; padding-left: 10px; }
+.level-three { background: url(../image/level_three.png) no-repeat scroll right; width: 228px; font-size: 16px; padding-left: 10px; }
+.level-two { background: url(../image/level_two.png) no-repeat scroll right; width: 228px; font-size: 16px; padding-left: 10px; }
 
-/*页脚*/
+/*页脚*/ßß
 .footer .footer-top { margin-top: 50px; margin-bottom: 30px; width: 1198px; height: 90px; border: 1px solid #ddd;  }
 .footer .footer-top img { display: block; margin-left: auto; margin-right: auto; margin-top: 20px; padding: 0; width: 698px; height: 54px; }
 .footer .fonter-link { height: 35px;  background-color: #eee; min-width: 1200px; }

@@ -31,30 +31,30 @@ $(function() {
 	});
 
 
-	$("#hotelFive").click(function() {
-		$("#modHotelFive").css({"display": "block"});
-		$("#modHotelFour").css({"display": "none"});
-		$("#modHotelThree").css({"display": "none"});
-		$("#modHotelOther").css({"display": "none"});
-	});
-	$("#hotelFour").click(function() {
-		$("#modHotelFive").css({"display": "none"});
-		$("#modHotelFour").css({"display": "block"});
-		$("#modHotelThree").css({"display": "none"});
-		$("#modHotelOther").css({"display": "none"});
-	});
-	$("#hotelThree").click(function() {
-		$("#modHotelFive").css({"display": "none"});
-		$("#modHotelFour").css({"display": "none"});
-		$("#modHotelThree").css({"display": "block"});
-		$("#modHotelOther").css({"display": "none"});
-	});
-	$("#hotelOther").click(function() {
-		$("#modHotelFive").css({"display": "none"});
-		$("#modHotelFour").css({"display": "none"});
-		$("#modHotelThree").css({"display": "none"});
-		$("#modHotelOther").css({"display": "block"});
-	});
+	// $("#hotelFive").click(function() {
+	// 	$("#modHotelFive").css({"display": "block"});
+	// 	$("#modHotelFour").css({"display": "none"});
+	// 	$("#modHotelThree").css({"display": "none"});
+	// 	$("#modHotelOther").css({"display": "none"});
+	// });
+	// $("#hotelFour").click(function() {
+	// 	$("#modHotelFive").css({"display": "none"});
+	// 	$("#modHotelFour").css({"display": "block"});
+	// 	$("#modHotelThree").css({"display": "none"});
+	// 	$("#modHotelOther").css({"display": "none"});
+	// });
+	// $("#hotelThree").click(function() {
+	// 	$("#modHotelFive").css({"display": "none"});
+	// 	$("#modHotelFour").css({"display": "none"});
+	// 	$("#modHotelThree").css({"display": "block"});
+	// 	$("#modHotelOther").css({"display": "none"});
+	// });
+	// $("#hotelOther").click(function() {
+	// 	$("#modHotelFive").css({"display": "none"});
+	// 	$("#modHotelFour").css({"display": "none"});
+	// 	$("#modHotelThree").css({"display": "none"});
+	// 	$("#modHotelOther").css({"display": "block"});
+	// });
 
 	/**/
 	$('.nav-scenic li').click(function(){
