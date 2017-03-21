@@ -1,7 +1,7 @@
 .ql-container { width: 1200px; margin: 0 auto;  }
 .bg-yellow { background-color: #ffd633; }
-.bg-blue { background-color: #33cccc; }
-.bg-green { background-color: #33cc66; }
+.bg-blue { background-color: #00cc99; }
+.bg-green { background-color: #6495ED; }
 .bg-red { background-color: #ff6666; }
 .bg-purple { background-color: #a06fcb; }
 .bg-navy  { background-color: #003399; }
@@ -70,38 +70,44 @@
 .body-left { float: left; width: 200px; }
 .body-left-img { width: 200px; height: 340px; }
 .body-left-img img { width: 200px; height: 340px; }
+.body-left-recommend-img { width: 200px; height:380px; }
+.body-left-recommend-img img { width: 200px; height: 380px; }
 .body-left-text { position: relative; width: 200px; height: 80px; padding-left: 18px; color: #fff; }
 .body-left-text h3 { padding-top: 13px; font-size: 16px; }
 .body-left-text p {	font-size: 12px; }
 .body-left-text .body-more { position: absolute; right: 20px; bottom: 10px;  float: right; }
-.body-right { float: left; width: 1000px; margin: 0 0 0 0px; }
+.body-right { float: left; width: 980px; margin: 0 0 0 20px; }
 .body-right .product-item .product-title { border: 1px solid #ddd; }
 .body-right li:last-child { margin-right: 0; }
 .body-right li p { margin-top: 0px; }
 
 .hot-center { float: left; width: 730px; height: 420px; margin: 0 20px; }
-.recommend-car-left { float: left; width: 750px; height: 420px; }
-.product .product-item { float: left; height: 200px; background-color: #fff; margin-right: 20px; margin-bottom: 20px; overflow: hidden;}
-.hot-center li:nth-child(2) { margin-right: 0; }
+.recommend-car-left { float: left; width: 720px; height: 420px; }
+.product .product-item { float: left; height: 200px; background-color: #fff; margin-right: 10px; margin-bottom: 20px; overflow: hidden;}
+/*.hot-center li:nth-child(2) { margin-right: 0; }*/
 .hot-center li:last-child { margin-right: 0; }
 .recommend-car-left li:nth-child(3) { margin-right: 20px; }
 .recommend-car-left li:last-child { margin-right: 0; }
-.recommend-car-right { float: right; width: 230px; height: 420px; background-color: #ddd; overflow: hidden; margin-bottom: 20px; }
-.recommend-car-right img { width: 100%; height: 100%; }
-.product .product-item-480 { width: 480px; }
-.product .product-item-480 img { width: 480px; height: 145px; }
+.recommend-car-right { float: right; width: 230px; height: 420px; background-color: #ddd; overflow: hidden; margin-right:30px; margin-bottom: 20px; }
+.recommend-car-right img { width: 100%; height: 100%; border: 2px solid #b5b4b4}
+.product .product-item-480 { width: 470px; }
+.product .product-item-400-height {width: 230px; height: 420px;}
+.product .product-item-480 img { width: 470px; height: 145px; }
+.product .product-item-400-height img {width: 230px; height: 365px}
 .product .product-item-180 { width: 180px; }
 .product .product-item-180 img { width: 180px; height: 145px; }
 .product .product-item-sm { width: 170px; }
-.product .product-item-sm img { width: 170px; height: 145px; }
 .product .product-item-230 { width: 230px; border: 1px solid #ddd; overflow: hidden;}
 .product .product-item-230 img { width: 230px; height: 145px; }
 .product-item .product-title { height: 54px; }
 .product-item .product-title h3 { font-size: 14px; line-height: 26px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .product-item .product-title h3 i { font-style: normal; color: #f60; }
 .product-item .product-title span { font-size: 16px;  color: #f60; }
-.product-more { color: #f60; border: 1px solid #f60; margin-right: 5px; padding: 1px 1px 1px 4px;}
+.product-item .product-title .theme-span { margin-left:15px; font-size: 22px; color: #333; }
+.product-more { color: #f60; border: 1px solid #f60; margin-right: 5px; padding: 1px 1px 1px 1px;}
+.product-more-no-border { color: #f60; margin-right: 5px; padding: 1px 1px 1px 1px;}
 .product-more:hover { background-color: #f60; color: #fff; }
+.product-more-no-border:hover { background-color: #f60; color: #fff; }
 
 .hot-about { position: relative; float: right; width: 230px; height: 420px; background-color: #fce706; }
 .box-border { width: 146px; height: 80px; border: 2px solid #fff; }
@@ -119,8 +125,8 @@
 
 /*介绍*/
 .main-layer { margin-top: 42px; }
-.main-layer .body-left-img { height: 380px; }
-.main-layer .body-left-img img { width: 200px; height: 380px; }
+.main-layer .body-left-img { height: 230px; }
+.main-layer .body-left-img img { width: 200px; height: 230px; }
 .main-layer .body-left-text { height: 90px; }
 
 
@@ -135,10 +141,10 @@
 .nav-tabs li a:hover { color: #fff; border: none; background-color: #33cccc; border-radius: 0;}
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border: none; background-color: transparent; color: #fff; }
 .nav-tabs .active { background-color: #33cccc; color: #fff; }
-.tabs-recommend li a:hover { background-color: #33cccc}
-.tabs-recommend .active { background-color: #33cccc; }
-.tabs-tourist li a:hover { background-color: #33cc66}
-.tabs-tourist .active { background-color: #33cc66; }
+.tabs-recommend li a:hover { background-color: #00cc99}
+.tabs-recommend .active { background-color: #00cc99; }
+.tabs-tourist li a:hover { background-color: #6495ED;}
+.tabs-tourist .active { background-color: #6495ED; }
 .tabs-strategy li a:hover { background-color: #ff6666}
 .tabs-strategy .active { background-color: #ff6666; }
 
@@ -178,7 +184,7 @@
 
 /*桂林酒店*/
 .main-layer .hotel-left-img { height: 270px; overflow: hidden; }
-.main-layer .hotel-left-img img { height: 240px; }
+.main-layer .hotel-left-img img { height: 270px; }
 .main-layer .hotel-left-text { height: 90px; }
 .hotel-item li { float: left; width: 228px; height: 310px; margin-left: 22px; border: 1px solid #ddd; overflow: hidden; }
 .hotel-item li:first-child { margin-left: 0; }
@@ -361,4 +367,39 @@
 .aside-hotel-item p { height: 20px; line-height: 20px; color: #333; }
 .aside-hotel-item em { color: #f60; }
 
+/*景点广告*/
+.fold_wrap{width:1000px;overflow:hidden;margin:0 auto;}
+.fold_wrap ul{width:1000px;height:260px;margin:0 auto;overflow:hidden;}
+.fold_wrap ul li{float:left;width:130px;height:260px;position:relative;overflow:hidden;cursor:pointer;}
+.fold_wrap ul li .mask_b{position:absolute;overflow:hidden;width:100%;height:100%;left:0;top:0;background:rgba(0,0,0,.3);_background:#B2B2B2;}
+.fold_wrap ul li.active .mask_b{background:none;}
+.fold_wrap ul li .mask_b h4{color:#fff;width:30px;margin:0 auto;display:block;font:30px/30px Microsoft Yahei;position:relative;padding:30px 0 0 0;}
+.fold_wrap ul li.big{width:322px;}
+.foldimgap ul li .adv_intro{ width:92%; height:40px; padding:5px 4%; position:absolute;left:0; bottom:-50px;background:#37D; color:#FFF; overflow:hidden;}
+.adv_intro_show{bottom:0 !important; transition:bottom 0.3s linear 0.3s; -webkit-transition:bottom 0.3s linear 0.3s;}
 
+.pic_auto{width:100%; height:100%;}
+.pic_auto1{background:url(../image/scenic/漓江.jpg) no-repeat center 0; background-size: cover; }
+.pic_auto2{background:url(../image/scenic/独秀峰.jpg) no-repeat center 0; background-size: cover; }
+.pic_auto3{background:url(../image/scenic/芦笛岩.jpg) no-repeat center 0; background-size: cover; }
+.pic_auto4{background:url(../image/scenic/夜游两江四湖.jpg) no-repeat center 0; background-size: cover; }
+.pic_auto5{background:url(../image/scenic/王城景区.jpg) no-repeat center 0; background-size: cover; }
+.pic_auto6{background:url(../image/scenic/象鼻山.jpg) no-repeat center 0; background-size: cover; }
+.pic_auto7{background:url(../image/scenic/印象刘三姐.jpg) no-repeat center 0; background-size: cover; }
+.pic_auto8{background:url(../image/scenic/十里画廊.jpg) no-repeat center 0; background-size: cover; }
+.pic_auto9{background:url(../image/scenic/福利古镇.jpg) no-repeat center 0; background-size: cover; }
+.pic_auto10{background:url(../image/scenic/遇龙河竹筏漂流.jpg) no-repeat center 0; background-size: cover; }
+.pic_auto11{background:url(../image/scenic/高田风光.jpg) no-repeat center 0; background-size: cover; }
+.pic_auto12{background:url(../image/scenic/月亮山.jpg) no-repeat center 0; background-size: cover; }
+.pic_auto13{background:url('../image/scenic/龙脊梯田(平安).jpg') no-repeat center 0; background-size: cover; }
+.pic_auto14{background:url('../image/scenic/龙脊梯田(金坑).jpg') no-repeat center 0; background-size: cover; }
+.pic_auto15{background:url(../image/scenic/黄洛瑶寨.jpg) no-repeat center 0; background-size: cover; }
+.pic_auto16{background:url(../image/scenic/龙胜温泉.jpg) no-repeat center 0; background-size: cover; }
+.pic_auto17{background:url(../image/scenic/八角寨.jpg) no-repeat center 0; background-size: cover; }
+.pic_auto18{background:url(../image/scenic/天门山.jpg) no-repeat center 0; background-size: cover; }
+.pic_auto19{background:url(../image/scenic/五排河漂流.jpg) no-repeat center 0; background-size: cover; }
+.pic_auto20{background:url(../image/scenic/猫儿山.jpg) no-repeat center 0; background-size: cover; }
+.pic_auto21{background:url(../image/scenic/乐满地主题乐园.jpg) no-repeat center 0; background-size: cover; }
+.pic_auto22{background:url(../image/scenic/灵渠.jpg) no-repeat center 0; background-size: cover; }
+.pic_auto23{background:url(../image/scenic/秦城水街.jpg) no-repeat center 0; background-size: cover; }
+.pic_auto24{background:url(../image/scenic/丹霞温泉.jpg) no-repeat center 0; background-size: cover; }

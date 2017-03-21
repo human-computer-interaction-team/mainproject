@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>中青旅旅游网站</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="//m.elongstatic.com/wwwstatic/web/common/css/new2015.min.css"/>
+    <link rel="stylesheet" href="css/scenic_style.css">
+    <!--<script type="text/javascript" src="//m.elongstatic.com/promotions/index/demo/p_header_cn.js"></script>-->
+    <script src="//m.elongstatic.com/wwwstatic/common/js/systemall.js"></script>
+    <script src="js/scenic1.js"></script>
+</head>
+
+<body>
+<div class="header">
+    <!--<div class="herader-top">-->
+    <!--<div class="ql-container header-inner">-->
+    <!--<ul class="index-top-nav user-login-info">-->
+    <!--<li><a href="#"><img src="./image/collect.png">收藏</a>|</li>-->
+    <!--<li><a href="#">[登录]</a></li>-->
+    <!--<li><a href="#">[注册]</a></li>-->
+    <!--</ul>-->
+    <!--<ul class="index-top-nav nav-right">-->
+    <!--<li class="nav-item"><a href="#"><img src="./image/weibo.png">新浪</a>|</li>-->
+    <!--<li class="nav-item"><a href="#"><img src="./image/tencent.png">微博</a>|</li>-->
+    <!--<li class="nav-item"><a href="#"><img src="./image/weixin.png">微信</a>|</li>-->
+    <!--<li class="nav-item"><a href="#"><img src="./image/tianqi.png">多云 13℃</a></li>-->
+    <!--</ul>-->
+    <!--<div class="clear"></div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <div class="ql-container herader-search">
+        <div class="logo">
+            <img src="./image/logo_info.png">
+        </div>
+        <div class="search-box">
+            <form id="route-search" class="form-inline">
+                <div class="input-group">
+                    <input type="text" placeholder="请输入搜索关键词">
+                    <div id="search-choice" class="input-group-addon search-choice" style="width: 70px;">
+                        <select class="form-control">
+                            <option>全部</option>
+                            <option>景点</option>
+                            <option>攻略</option>
+                        </select>
+                    </div>
+                    <div class="input-group-addon search-button" style="width: 70px;">
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="site-contact">
+            <img src="./image/global-mobile.png">
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="banner_wrap">
+    <div class="w1000 wrap_test top_wrap ">
+
+
+    </div>
+</div>
+
+
+<script>
+
+    var cityData = data2[6];
+    var city = $("<div/>");
+    city.attr('class', 'one');
+    city.appendTo($(".wrap_test"));
+
+    var title = $('<div/>');
+    title.attr('class', 'title clearfix');
+    title.html('<h2>' + cityData.Scenic + '<\/h2>');
+
+
+    var city_inf = $('<div/>');
+    city_inf.attr('class', 'right city_inf');
+    city_inf.html('<p>' + cityData.Infor + '<\/p>');
+
+    var big_p = $('<div/>');
+    big_p.attr('class', 'left bigpic');
+    big_p.html('<img src= image/scenic/' + cityData.Spic + '>');
+
+
+    //
+    //city.html(cityData.City);
+    title.appendTo(city);
+    city_inf.appendTo(city);
+    big_p.appendTo(city);
+    //var listDiv = $("<div/>");
+    //listDiv.appendTo($(".w1000"));
+    var ul = $("<ul/>");
+    //ul.appendTo($(".one"));
+    for (var j = 0; j < cityData.data.length; j++) {
+        var li = $("<li/>");
+        //
+
+
+        li.html('<div class=\"sd_pic\">' + '<img src= image/scenic-detail/' + cityData.data[j].Pic + '>' + '<\/div>');
+
+
+        var h6 = $('<h6/>');
+        h6.html('<span class=\"right\">' + '<b style="color: #333">' + ((cityData.data)[j]).Name + '<\/b>');
+
+
+        var inf = $('<div/>');
+        inf.addClass('city_list_inf');
+        inf.html('<p>' + ((cityData.data)[j]).Inf + '<\/p>');
+
+
+        // li.html(((cityData.data)[j]).Name);
+        h6.appendTo(li);
+        inf.appendTo(li);
+        li.appendTo(ul);
+    }
+    var city_list = $('<div/>');
+    city_list.addClass('city_list');
+    ul.appendTo(city_list);
+    city_list.appendTo($('.one:eq(' + 0 + ')'));
+    //        }
+    //    }
+</script>
+</body>
+<div class="footer">
+    <div class="ql-container">
+        <div class="footer-top">
+            <img src="./image/footer_logo.png">
+        </div>
+    </div>
+    <div class="fonter-link">
+        <div class="ql-container fonter-link-list">
+            <ul>
+                <li>友情链接：</li>
+                <li><a href="">广西中青旅</a></li>
+                <li>|</li>
+                <li><a href="">遨游网</a></li>
+                <li>|</li>
+                <li><a href="">中青旅</a></li>
+                <li>|</li>
+                <li><a href="">内宾国内旅游</a></li>
+                <li>|</li>
+                <li><a href="">会奖商务旅游</a></li>
+                <li>|</li>
+                <li><a href="">日本团散地接</a></li>
+                <li>|</li>
+                <li><a href="">其他事项联系</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="footer-about">
+        <div class="ql-container footer-about-info">
+            <p>版权所有 © 2012 桂林中青旅国际旅游有限公司官方网站<span>桂ICP备12002862号-1</span></p>
+            <p>桂林市七星路30号东方大厦三层<span>电话：0773-5851388</span><span>传真：0773-5851288</span><span>邮箱：GUILINCYTS@163.COM</span>
+            </p>
+            <p>广西壮族自治区桂林中青旅国际旅游有限公司版权所有 严禁任何人、机构做本站镜像，违者必究，本站有权追究法律责任。</p>
+        </div>
+    </div>
+</div>
+</html>
+
